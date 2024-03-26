@@ -35,14 +35,13 @@ def getPermutation(n, k):
                 continue
             if len(res) == k:
                 return
-            path.append(str(i))
+            path.append(str(i)) # 选择元素
             visited[i] = True
-            backtrack(path)
-            path.pop()
+            backtrack(path)     # 递归搜索
+            path.pop()          # 撤销选择
             visited[i] = False
     backtrack([])
     return res[-1] if res else ""
-
 
 n = 3
 k = 3
