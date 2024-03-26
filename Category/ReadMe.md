@@ -41,6 +41,7 @@ https://datawhalechina.github.io/leetcode-notes/#/keys/solutions/Solutions-List
 226     翻转二叉树
 236     二叉树的最近公共祖先
 199     二叉树的右视图
+297     二叉树的序列化与反序列化
 
 
 ## 图
@@ -54,7 +55,13 @@ https://datawhalechina.github.io/leetcode-notes/#/keys/solutions/Solutions-List
 
 
 ## 滑动窗口
+固定长度模板
+
+不定长度模板
+
+
 239     滑动窗口最大值
+209     长度最小的子数组        
 
 ## 回溯
 解题步骤：
@@ -69,11 +76,17 @@ https://datawhalechina.github.io/leetcode-notes/#/keys/solutions/Solutions-List
 22      括号生成
 39      组合总和
 40      组合总和 II
+93      复原 ip 地址
 
-## 递归
+## 递推
+121     买卖股票的最佳时机
 
 
-## 动态规划、
+## 递归、DFS
+337     打家劫舍 III
+
+
+## 动态规划
 解题步骤：
 1. 定义状态
 2. 明确状态转移方程
@@ -82,5 +95,18 @@ https://datawhalechina.github.io/leetcode-notes/#/keys/solutions/Solutions-List
 序号    题目            状态定义        状态转移方程        最终结果        时间复杂度      空间复杂度
 221     最大正方形
 53      最大子数组和
+300     最长递增子序列
+1143    最长公共子序列
+64      最小路径和
+72      编辑距离
+62      不同路径
+63      不同路径 II
+152     乘积最大子数组
+198     打家劫舍
+213     打家劫舍 II
+139     单词拆分
+140     单词拆分 II
+
 
 ## 贪心
+122     买卖股票的最佳时机 II
