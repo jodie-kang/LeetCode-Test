@@ -11,7 +11,12 @@
 #         self.val = val
 #         self.next = next
 class Solution:
+<<<<<<< HEAD
     # 思路：分而治之的思想。将链表数组不断二分，转为规模为二分之一的子问题，然后再进行归并排序。
+=======
+    # 思路 1：分治
+    # 分而治之的思想。将链表数组不断二分，转为规模为二分之一的子问题，然后再进行归并排序。
+>>>>>>> 1f2eac0a39c64e85d185c7f9f83bc1895a39f103
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         if not lists:
             return None

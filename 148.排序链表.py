@@ -34,7 +34,15 @@ class Solution:
                 cur.next = right
                 right = right.next
             cur = cur.next
+<<<<<<< HEAD
         cur.next = left if left else right
+=======
+        
+        if left:
+            cur.next = left
+        elif right:
+            cur.next = right
+>>>>>>> 1f2eac0a39c64e85d185c7f9f83bc1895a39f103
             
         return dummy_head.next
         

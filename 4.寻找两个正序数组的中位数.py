@@ -10,8 +10,13 @@ class Solution:
     # 使用二分查找确定较短数组的分割位置，使得两个数组的左半部分和右半部分元素个数相等或左半部分多一个。
     # 根据两个数组的总元素个数是奇数还是偶数，计算中位数。
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+<<<<<<< HEAD
         n1 = len(nums1)
         n2 = len(nums2) 
+=======
+        n1 = len(nums1)  # 计算 nums1 的长度
+        n2 = len(nums2)  # 计算 nums2 的长度
+>>>>>>> 1f2eac0a39c64e85d185c7f9f83bc1895a39f103
         if n1 > n2:  # 如果 nums1 较长，交换两个数组
             return self.findMedianSortedArrays(nums2, nums1)
 

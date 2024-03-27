@@ -6,6 +6,7 @@
 
 # @lc code=start
 class Solution:
+<<<<<<< HEAD
     # 使用一个栈来保存进行乘除运算后的整数值。正整数直接压入栈中，负整数，则将对应整数取负号，再压入栈中。这样最终计算结果就是栈中所有元素的和。
     # 具体做法：
     # 遍历字符串 s，使用变量 op 来标记数字之前的运算符，默认为 +。
@@ -46,5 +47,8 @@ class Solution:
             index += 1
         return sum(stack)
         
+=======
+    def calculate(self, s: str) -> int:
+>>>>>>> 1f2eac0a39c64e85d185c7f9f83bc1895a39f103
 # @lc code=end
 
